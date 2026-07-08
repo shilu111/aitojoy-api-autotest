@@ -20,6 +20,9 @@ test-results/
 reports/allure-results/
 reports/allure-report/
 
+# ===== Playwright MCP 缓存 =====
+.playwright-mcp/
+
 # ===== 系统/IDE =====
 .DS_Store
 .idea/
