@@ -724,7 +724,7 @@ def calc_vam():
     if missing:
         return jsonify({"ok": False, "msg": f"缺少必填项：{'、'.join(missing)}"})
 
-    # 确保 token1
+    # 确保 token
     token = ensure_valid_token()
     tenant = config.get_tenant(_current_env["value"])
     if not token:
