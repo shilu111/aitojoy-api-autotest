@@ -110,6 +110,12 @@ def query_table(table: dict, token: str, tenant: str, filters: dict,
     }
 
 
+@app.route("/api/health", methods=["GET"])
+def health_check():
+    """健康检查接口，用于监控服务是否正常运行"""
+    return jsonify({"ok": True, "status": "running", "service": "equity-asset-query"})
+
+
 @app.route("/api/weather", methods=["GET"])
 def get_weather():
     """获取当前天气（使用 wttr.in 免费接口，北京朝阳区）"""
