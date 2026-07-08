@@ -1,0 +1,19 @@
+# ===== 测试框架 =====
+pytest==8.3.4                # 测试框架核心
+pytest-xdist==3.6.1          # 并行执行
+pytest-rerunfailures==15.0   # 失败重试
+
+# ===== 接口测试 =====
+requests==2.32.3             # HTTP 接口请求库
+
+# ===== UI 测试 =====
+playwright==1.49.1           # 浏览器 UI 自动化（Python 版）
+pytest-playwright==0.6.2     # pytest 与 playwright 集成
+
+# ===== 测试报告 =====
+allure-pytest==2.13.5        # Allure 报告生成
+
+# ===== 工具库 =====
+PyYAML==6.0.2                # YAML 数据文件解析
+python-dotenv==1.0.1         # .env 环境变量加载
+jsonpath-ng==1.7.0           # JSON 响应断言提取

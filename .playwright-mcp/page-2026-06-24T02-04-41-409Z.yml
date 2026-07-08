@@ -1,0 +1,63 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "股权资产管理查询面板" [level=1] [ref=e4]
+    - paragraph [ref=e5]: 台账查询 · 项目名称 / 项目编号 / 天九持股主体
+  - generic [ref=e6]:
+    - generic [ref=e7]: TOKEN 管理
+    - generic [ref=e9]:
+      - generic [ref=e10]: Tj-Auth（鉴权 Token）
+      - textbox [ref=e11]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWdpc3RlclRpbWUiOiIyMDIyLTA0LTE2IDE3OjAyOjQ5IiwidXNlcl9uYW1lIjoiMTM2MjIwMzQxODZfcGFzc3dvcmRfMV8xIiwicGxhdGZvcm1UeXBlIjoxLCJ1c2VyRnVsbE5hbWUiOiIxMzYyMjAzNDE4Nl9wYXNzd29yZF8xXzEiLCJtb2JpbGUiOiIxMzYyMjAzNDE4NiIsImF2YXRhciI6Imh0dHBzOi8vYnBtLXByby5vc3MtY24tYmVpamluZy5hbGl5dW5jcy5jb20vZGVmYXVsdF9pbWFnZS9tZW1iZXJfYXZhdGFyLnBuZyIsInVzZXJOYW1lIjoiMTM2MjIwMzQxODZfcGFzc3dvcmRfMV8xIiwidXNlcklkIjoiNDA1ZWMyOTcyNWE5YTdmYjhhYWIxNzdmOWZmYjVmMGUiLCJjbGllbnRfaWQiOiJ0b2pveSIsImlzVGhpcmRQYXJ0VXNlciI6IjAiLCJsb2dpblBsYXRmb3JtVHlwZSI6IjEiLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNzgxMTQ4NjQ4LCJqdGkiOiJlNjVkYjI1NC1mYTM0LTRkZTUtODdhYy04NDUxYTdmNDIxMTIiLCJhY2NvdW50IjoiMTM2MjIwMzQxODZfcGFzc3dvcmRfMV8xIn0.ICckS21haP86z15Q_rAXRsn5RWYC5gmSLLoRRA0Er_Y
+    - generic [ref=e12]:
+      - generic [ref=e13]: Tojoy-Tenant（租户）
+      - textbox [ref=e14]: e5b7a28fea70b234556fba5ba7723281
+    - paragraph [ref=e15]: Token 有时效，过期会查询失败，直接粘贴新的 Tj-Auth 即可。
+  - generic [ref=e16]:
+    - generic [ref=e17]: 查询条件
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: 项目名称
+        - textbox "精确匹配，如 太和物联" [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]: 项目编号
+        - textbox "精确匹配，如 AX202003859-S" [ref=e25]
+      - generic [ref=e26]:
+        - generic [ref=e27]: 天九持股主体
+        - textbox "精确匹配，如 天九共享智慧企业服务股份有限公司" [ref=e28]
+    - generic [ref=e29]:
+      - button "🔍 查询" [ref=e30] [cursor=pointer]
+      - button "重置" [ref=e31] [cursor=pointer]
+      - button "导出CSV" [ref=e32] [cursor=pointer]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - text: 查询结果
+      - generic [ref=e36]: 共 0 条
+    - table [ref=e38]:
+      - rowgroup [ref=e39]:
+        - row "# 流水号 项目编号 项目名称 天九持股主体 项目主体公司 协议标的公司 最终标的公司 业务类型 持股状态 体系类型 所属集团 阿米巴中心 股权比例(%) 创建人 创建时间" [ref=e40]:
+          - columnheader "#" [ref=e41]
+          - columnheader "流水号" [ref=e42]
+          - columnheader "项目编号" [ref=e43]
+          - columnheader "项目名称" [ref=e44]
+          - columnheader "天九持股主体" [ref=e45]
+          - columnheader "项目主体公司" [ref=e46]
+          - columnheader "协议标的公司" [ref=e47]
+          - columnheader "最终标的公司" [ref=e48]
+          - columnheader "业务类型" [ref=e49]
+          - columnheader "持股状态" [ref=e50]
+          - columnheader "体系类型" [ref=e51]
+          - columnheader "所属集团" [ref=e52]
+          - columnheader "阿米巴中心" [ref=e53]
+          - columnheader "股权比例(%)" [ref=e54]
+          - columnheader "创建人" [ref=e55]
+          - columnheader "创建时间" [ref=e56]
+      - rowgroup [ref=e57]:
+        - row "点击「查询」加载台账数据" [ref=e58]:
+          - cell "点击「查询」加载台账数据" [ref=e59]
+    - generic [ref=e60]:
+      - button "上一页" [ref=e61] [cursor=pointer]
+      - generic [ref=e62]: 第 1 页
+      - button "下一页" [ref=e63] [cursor=pointer]
+      - combobox [ref=e64]:
+        - option "20条/页" [selected]
+        - option "50条/页"
+        - option "100条/页"

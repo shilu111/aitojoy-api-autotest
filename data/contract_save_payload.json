@@ -1,0 +1,108 @@
+{
+  "contractInfo": {
+    "fileList": [
+      {
+        "fileName": "26d65eeae1f94139b16cf52e0442a78e.docx",
+        "fileSize": 21184,
+        "fileType": "docx",
+        "fileUrl": "https://bpm-tojoy-test.oss-cn-beijing.aliyuncs.com/bpm-tojoy-test/t_e0c5a9f2393fad79dfb0e5a3915d3e7d/contract/29c668af91a045d28ddddfc1b1891210.docx",
+        "wpsFileId": "600767458047217664",
+        "isShowSuccess": true,
+        "uploadTime": 1781522123728,
+        "url": "https://bpm-tojoy-test.oss-cn-beijing.aliyuncs.com/bpm-tojoy-test/t_e0c5a9f2393fad79dfb0e5a3915d3e7d/contract/29c668af91a045d28ddddfc1b1891210.docx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "uid": 1781522124689,
+        "status": "success"
+      }
+    ],
+    "attachmentList": [],
+    "isSetConfirmPerson": false,
+    "isOpenSignOrder": false,
+    "isFreeSignModel": false,
+    "signerInfoList": [
+      {
+        "id": "",
+        "isNeedSign": false,
+        "signOrder": 0,
+        "isNeedFill": false,
+        "signersName": "签署方1",
+        "agentSignersInfoList": [],
+        "participantType": "E",
+        "partyTypeValue": "SE",
+        "companyName": "北京胖头鱼文化有限公司",
+        "personId": "374e4d91dd0117a0054195483884a333",
+        "personName": "刘桐",
+        "personType": "1",
+        "signersConfig": {
+          "orgSealBizTypes": "PUBLIC,CONTRACT,FINANCE,PERSONNEL,COMMON",
+          "otherConfig": "",
+          "psnSealStyles": "",
+          "signTipsContent": "",
+          "signTipsSwitch": false,
+          "signTipsTitle": "",
+          "signerTypes": "1",
+          "willingnessAuthTypes": "PSN_FACE,CODE_SMS,SIGN_PWD"
+        },
+        "mobile": "13622034186",
+        "customerId": null
+      },
+      {
+        "signOrder": 2,
+        "signersName": "签署方2",
+        "agentSignersInfoList": [],
+        "isNeedSign": false,
+        "isEdit": false,
+        "id": "",
+        "personType": "1",
+        "isNeedFill": false,
+        "participantType": "P",
+        "partyTypeValue": "SE",
+        "companyName": "绍兴市和家园园艺有限公司",
+        "signersConfig": {
+          "orgSealBizTypes": "",
+          "otherConfig": "",
+          "psnSealStyles": "0,1",
+          "signTipsContent": "",
+          "signTipsSwitch": false,
+          "signTipsTitle": "",
+          "signerTypes": "0",
+          "willingnessAuthTypes": "PSN_FACE,CODE_SMS,SIGN_PWD"
+        },
+        "personName": "陈瑶",
+        "mobile": "13718675101",
+        "customerId": "20029",
+        "personId": ""
+      }
+    ],
+    "productionInfo": {
+      "projectName": "数科项目-4",
+      "projectNo": "AX202101175-S",
+      "relProductType": "3",
+      "productName": "",
+      "productNo": "",
+      "resultName": "数科项目4-子项目1",
+      "subProjectCode": "",
+      "subProjectName": "数科项目4-子项目1",
+      "subProjectNo": "AX202101175-S-0003",
+      "companyName": "北京天九共享数字科技集团有限公司",
+      "companyId": 29
+    },
+    "name": "线下002",
+    "contractTypeValue": "CT_001",
+    "frameName": "v2.3.0商品规格优化",
+    "frameCode": "HKJ20260615001",
+    "signDate": 1781452800000,
+    "concatDueDate": 1781711999999,
+    "contractRemark": "线下发起测试",
+    "frameData": {
+      "select_c615fa": {
+        "label": "河北省/石家庄市/长安区",
+        "value": "600686811517693967"
+      },
+      "number_06d315": "123",
+      "number_2699f1": 1.2,
+      "number_54ec01": 147.6
+    },
+    "contractStartTypeValue": "START_TYPE_OFFLINE"
+  }
+}

@@ -1,0 +1,263 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e88]:
+    - generic [ref=e89]:
+      - img "企座" [ref=e90] [cursor=pointer]
+      - generic [ref=e91]: "| 工作台"
+      - generic [ref=e92]:
+        - text: 灰度环境：
+        - generic [ref=e93]:
+          - switch
+      - button "L liutong10" [ref=e99] [cursor=pointer]:
+        - generic [ref=e100]: L
+        - generic [ref=e101]: liutong10
+        - img [ref=e103]
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]: 项目服务平台
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: "01"
+              - text: 项目甄选
+            - generic [ref=e114]:
+              - generic [ref=e115] [cursor=pointer]: 项目线索库
+              - generic [ref=e116] [cursor=pointer]: 备案查询
+              - generic [ref=e117] [cursor=pointer]: 项目备案
+              - generic [ref=e118] [cursor=pointer]: 渠道信息管理
+              - generic [ref=e119] [cursor=pointer]: 合伙人管理
+              - generic [ref=e120] [cursor=pointer]: 外部人员管理
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - generic [ref=e123]: "02"
+              - text: 项目开发
+            - generic [ref=e126]:
+              - generic [ref=e127] [cursor=pointer]: 开发视图
+              - generic [ref=e128] [cursor=pointer]: 公共项目池
+              - generic [ref=e129] [cursor=pointer]: 人员变更记录
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: "03"
+              - text: 加速管理
+            - generic [ref=e135]:
+              - generic [ref=e136] [cursor=pointer]: 联营视图
+              - generic [ref=e137] [cursor=pointer]: 任务管理
+              - generic [ref=e138] [cursor=pointer]: 意向客户
+              - generic [ref=e139] [cursor=pointer]: 配置管理
+              - generic [ref=e140] [cursor=pointer]: 项目方人员管理
+              - generic [ref=e141] [cursor=pointer]: 发布管理
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]: "04"
+              - text: 赋能管理
+            - generic [ref=e147]:
+              - generic [ref=e148] [cursor=pointer]: 投后视图
+              - generic [ref=e149] [cursor=pointer]: 履约信息登记
+              - generic [ref=e150] [cursor=pointer]: 落地报告
+              - generic [ref=e151] [cursor=pointer]: 承诺事项登记
+              - generic [ref=e152] [cursor=pointer]: 问卷管理
+              - generic [ref=e153] [cursor=pointer]: 流水监管
+              - generic [ref=e154] [cursor=pointer]: 一表通
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: "05"
+              - text: 价值管理
+            - generic [ref=e160]:
+              - generic [ref=e161] [cursor=pointer]: 股权管理
+              - generic [ref=e162] [cursor=pointer]: 估值管理
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: 流程中心
+          - generic [ref=e167]:
+            - generic [ref=e168] [cursor=pointer]: 发起流程
+            - generic [ref=e169] [cursor=pointer]: 流程配置
+            - generic [ref=e170] [cursor=pointer]: 流程审批
+            - generic [ref=e171] [cursor=pointer]: 项目流程管理
+            - generic [ref=e172] [cursor=pointer]: 任务模板
+        - generic [ref=e173]:
+          - generic [ref=e174]: 风险管控
+          - generic [ref=e176] [cursor=pointer]: 三维分级管理
+        - generic [ref=e177]:
+          - generic [ref=e178]: 项目工具
+          - generic [ref=e179]:
+            - generic [ref=e180] [cursor=pointer]: 企业速查
+            - generic [ref=e181] [cursor=pointer]: 研报查询
+            - generic [ref=e182] [cursor=pointer]: 档案管理
+            - generic [ref=e183] [cursor=pointer]: AI智能项目助手（小P）
+            - generic [ref=e184] [cursor=pointer]: 会议管理
+            - generic [ref=e185] [cursor=pointer]: 人脉图谱
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - text: 会议管理平台
+          - generic [ref=e188] [cursor=pointer]:
+            - text: 进入会议系统
+            - img [ref=e190]
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: "01"
+              - text: 会前
+            - generic [ref=e198]:
+              - generic [ref=e199] [cursor=pointer]: 会议管理
+              - generic [ref=e200] [cursor=pointer]: 议程管理
+              - generic [ref=e201] [cursor=pointer]: 素材管理
+              - generic [ref=e202] [cursor=pointer]: 目标管理
+              - generic [ref=e203] [cursor=pointer]: 邀约管理
+              - generic [ref=e204] [cursor=pointer]: 报名管理
+              - generic [ref=e205] [cursor=pointer]: 参会核查
+              - generic [ref=e206] [cursor=pointer]: 审批管理
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]: "02"
+              - text: 会中
+            - generic [ref=e212]:
+              - generic [ref=e213] [cursor=pointer]: 接待管理
+              - generic [ref=e214] [cursor=pointer]: 签到管理
+              - generic [ref=e215] [cursor=pointer]: 酒店管理
+              - generic [ref=e216] [cursor=pointer]: 住宿管理
+              - generic [ref=e217] [cursor=pointer]: 坐席管理
+              - generic [ref=e218] [cursor=pointer]: 互动管理
+              - generic [ref=e219] [cursor=pointer]: 促销管理
+              - generic [ref=e220] [cursor=pointer]: 投屏签约
+              - generic [ref=e221] [cursor=pointer]: 合约管理
+              - generic [ref=e222] [cursor=pointer]: 订单管理
+              - generic [ref=e223] [cursor=pointer]: 退款管理
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - generic [ref=e226]: "03"
+              - text: 会后
+            - generic [ref=e229]:
+              - generic [ref=e230] [cursor=pointer]: 参会反馈
+              - generic [ref=e231] [cursor=pointer]: 数据统计
+              - generic [ref=e232] [cursor=pointer]: AI助手
+      - generic [ref=e233]:
+        - generic [ref=e234]: 客户管理平台
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e238]: "01"
+              - text: 线索
+            - generic [ref=e241]:
+              - generic [ref=e242] [cursor=pointer]: 线索管理
+              - generic [ref=e243] [cursor=pointer]: 线索分配
+              - generic [ref=e244] [cursor=pointer]: 线索转换
+              - generic [ref=e245] [cursor=pointer]: 线索公海
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - generic [ref=e248]: "02"
+              - text: 商机
+            - generic [ref=e251]:
+              - generic [ref=e252] [cursor=pointer]: 商机管理
+              - generic [ref=e253] [cursor=pointer]: 商机看板
+          - generic [ref=e254]:
+            - generic [ref=e255]:
+              - generic [ref=e256]: "03"
+              - text: 客户
+            - generic [ref=e259]:
+              - generic [ref=e260] [cursor=pointer]: 客户管理
+              - generic [ref=e261] [cursor=pointer]: 客户排重
+              - generic [ref=e262] [cursor=pointer]: 客户画像
+              - generic [ref=e263] [cursor=pointer]: 客户跟进
+              - generic [ref=e264] [cursor=pointer]: 客户公海
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]: "04"
+              - text: 订单
+            - generic [ref=e270]:
+              - generic [ref=e271] [cursor=pointer]: 订单管理
+              - generic [ref=e272] [cursor=pointer]: 订单详情
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - generic [ref=e275]: "05"
+              - text: 数据洞察
+            - generic [ref=e278]:
+              - generic [ref=e279] [cursor=pointer]: 线索转化率
+              - generic [ref=e280] [cursor=pointer]: 线索跟进情况
+              - generic [ref=e281] [cursor=pointer]: 商机赢单率
+              - generic [ref=e282] [cursor=pointer]: 销售漏斗
+      - generic [ref=e283]:
+        - generic [ref=e284]: 业务平台
+        - generic [ref=e286] [cursor=pointer]:
+          - img [ref=e287]
+          - generic [ref=e289]: 客管中心核算系统
+          - generic [ref=e290]:
+            - text: 前往
+            - img [ref=e292]
+      - generic [ref=e294]:
+        - generic [ref=e295]: 中台服务
+        - generic [ref=e296]:
+          - generic [ref=e297] [cursor=pointer]:
+            - img [ref=e298]
+            - generic [ref=e299]:
+              - generic [ref=e300]: 项目主数据
+              - generic "项目全周期数字化管理平台" [ref=e301]
+            - generic [ref=e302]:
+              - text: 前往
+              - img [ref=e304]
+          - generic [ref=e306] [cursor=pointer]:
+            - img [ref=e307]
+            - generic [ref=e308]:
+              - generic [ref=e309]: 用户中台
+              - generic "全域用户身份归一，构建360°全景画像" [ref=e310]
+            - generic [ref=e311]:
+              - text: 前往
+              - img [ref=e313]
+          - generic [ref=e315] [cursor=pointer]:
+            - img [ref=e316]
+            - generic [ref=e317]:
+              - generic [ref=e318]: 标签中台
+              - generic "跨服务、跨系统的标签管理和资源分类" [ref=e319]
+            - generic [ref=e320]:
+              - text: 前往
+              - img [ref=e322]
+          - generic [ref=e324] [cursor=pointer]:
+            - img [ref=e325]
+            - generic [ref=e326]:
+              - generic [ref=e327]: 合约中台
+              - generic "签管一体化电子合同平台" [ref=e328]
+            - generic [ref=e329]:
+              - text: 前往
+              - img [ref=e331]
+          - generic [ref=e333] [cursor=pointer]:
+            - img [ref=e334]
+            - generic [ref=e335]:
+              - generic [ref=e336]: 支付中台
+              - generic "优选一站式企业支付解决方案" [ref=e337]
+            - generic [ref=e338]:
+              - text: 前往
+              - img [ref=e340]
+          - generic [ref=e342] [cursor=pointer]:
+            - img [ref=e343]
+            - generic [ref=e344]:
+              - generic [ref=e345]: 天瞳BI
+              - generic "统一数据资产与自助分析平台" [ref=e346]
+            - generic [ref=e347]:
+              - text: 前往
+              - img [ref=e349]
+          - generic [ref=e351] [cursor=pointer]:
+            - img [ref=e352]
+            - generic [ref=e353]:
+              - generic [ref=e354]: 订单中心
+              - generic "整合全集团订单，打造订单一体化管理体系" [ref=e355]
+            - generic [ref=e356]:
+              - text: 前往
+              - img [ref=e358]
+      - generic [ref=e360]:
+        - generic [ref=e361]: 运营管理
+        - generic [ref=e362]:
+          - generic [ref=e363] [cursor=pointer]:
+            - img [ref=e364]
+            - generic [ref=e365]:
+              - generic [ref=e366]: 系统权限
+              - generic "账户管理、权限管理及功能分配" [ref=e367]
+            - generic [ref=e368]:
+              - text: 前往
+              - img [ref=e370]
+          - generic [ref=e372] [cursor=pointer]:
+            - img [ref=e373]
+            - generic [ref=e374]:
+              - generic [ref=e375]: 系统运营
+              - generic "留资管理、基础配置及用户中心相关管理" [ref=e376]
+            - generic [ref=e377]:
+              - text: 前往
+              - img [ref=e379]
+  - img

@@ -1,0 +1,142 @@
+{
+  "contractInfo": {
+    "fileList": [
+      {
+        "fileName": "合同(1).pdf",
+        "fileSize": 356763,
+        "fileType": "pdf",
+        "fileUrl": "https://bpm-tojoy-test.oss-cn-beijing.aliyuncs.com/bpm-tojoy-test/t_e0c5a9f2393fad79dfb0e5a3915d3e7d/contract/0973e05f496f4bb6a1d35debdb666f07.pdf",
+        "wpsFileId": "600988367618101248",
+        "isShowSuccess": true,
+        "uploadTime": 1781574792675,
+        "url": "https://bpm-tojoy-test.oss-cn-beijing.aliyuncs.com/bpm-tojoy-test/t_e0c5a9f2393fad79dfb0e5a3915d3e7d/contract/0973e05f496f4bb6a1d35debdb666f07.pdf",
+        "mimeType": "application/pdf",
+        "uid": 1781574792360,
+        "status": "success"
+      }
+    ],
+    "ackInfo": {},
+    "attachmentList": [],
+    "contractInitiatorInfo": {
+      "personType": "2",
+      "personId": "fdfa4c89bf57f6a9d8bdccec4842777d",
+      "personName": "刘桐",
+      "mobile": "13622034186",
+      "companyId": "e0c5a9f2393fad79dfb0e5a3915d3e7d",
+      "companyName": "北京企座数字科技集团有限公司",
+      "customerId": "",
+      "identityType": null,
+      "signersName": "创建人",
+      "partyTypeValue": "PT",
+      "participantType": "E"
+    },
+    "isSetConfirmPerson": false,
+    "isOpenSignOrder": false,
+    "isFreeSignModel": false,
+    "productionInfo": {
+      "projectName": "数科项目-4",
+      "projectNo": "AX202101175-S",
+      "relProductType": "3",
+      "productName": "",
+      "productNo": "",
+      "resultName": "数科项目4-子项目1",
+      "subProjectCode": "",
+      "subProjectName": "数科项目4-子项目1",
+      "subProjectNo": "AX202101175-S-0003",
+      "companyName": "北京天九共享数字科技集团有限公司",
+      "companyId": 29
+    },
+    "refMainConferenceNo": "",
+    "refConferenceNo": "",
+    "refConferenceType": "",
+    "refConferenceName": "",
+    "signerInfoList": [
+      {
+        "id": "",
+        "isNeedSign": true,
+        "signOrder": 1,
+        "isNeedFill": false,
+        "isEdit": false,
+        "signersName": "签署方1",
+        "agentSignersInfoList": [],
+        "participantType": "E",
+        "partyTypeValue": "SE",
+        "companyName": "北京胖头鱼文化有限公司",
+        "personType": "1",
+        "signersConfig": {
+          "orgSealBizTypes": "PUBLIC,CONTRACT,FINANCE,PERSONNEL,COMMON",
+          "otherConfig": "",
+          "psnSealStyles": "",
+          "signTipsContent": "",
+          "signTipsSwitch": false,
+          "signTipsTitle": "",
+          "signerTypes": "1",
+          "willingnessAuthTypes": "PSN_FACE,CODE_SMS,SIGN_PWD"
+        },
+        "personName": "刘桐",
+        "mobile": "13622034186",
+        "customerId": null,
+        "personId": "374e4d91dd0117a0054195483884a333"
+      },
+      {
+        "signOrder": 2,
+        "signersName": "签署方2",
+        "agentSignersInfoList": [],
+        "isNeedSign": true,
+        "isEdit": false,
+        "id": "",
+        "personType": "1",
+        "isNeedFill": false,
+        "participantType": "P",
+        "partyTypeValue": "SE",
+        "companyName": "绍兴市和家园园艺有限公司",
+        "signersConfig": {
+          "orgSealBizTypes": "",
+          "otherConfig": "",
+          "psnSealStyles": "0,1",
+          "signTipsContent": "",
+          "signTipsSwitch": false,
+          "signTipsTitle": "",
+          "signerTypes": "0",
+          "willingnessAuthTypes": "PSN_FACE,CODE_SMS,SIGN_PWD"
+        },
+        "personName": "陈瑶",
+        "mobile": "13718675101",
+        "customerId": "20029",
+        "personId": ""
+      }
+    ],
+    "signWayValue": "ONLINE",
+    "name": "直接发起-合作协议",
+    "contractTypeValue": "CT_002",
+    "preApprovalAttachmentList": [
+      {
+        "fileName": "前置审批.jpg",
+        "fileSize": 32755,
+        "fileType": "jpg",
+        "fileUrl": "https://bpm-tojoy-test.oss-cn-beijing.aliyuncs.com/bpm-tojoy-test/t_e0c5a9f2393fad79dfb0e5a3915d3e7d/contract/df9946c112f343f0b92432c6eb311a4d.jpg",
+        "wpsFileId": "600988610640269312",
+        "isShowSuccess": true,
+        "uploadTime": 1781574850610,
+        "url": "https://bpm-tojoy-test.oss-cn-beijing.aliyuncs.com/bpm-tojoy-test/t_e0c5a9f2393fad79dfb0e5a3915d3e7d/contract/df9946c112f343f0b92432c6eb311a4d.jpg",
+        "mimeType": "image/jpeg",
+        "uid": 1781574850267,
+        "status": "success"
+      }
+    ],
+    "frameName": "v2.3.0商品规格优化",
+    "frameCode": "HKJ20260615001",
+    "frameData": {
+      "select_c615fa": {
+        "label": "河北省/石家庄市/长安区",
+        "value": "600686811517693968"
+      },
+      "number_06d315": "123",
+      "number_2699f1": 1.23,
+      "number_54ec01": 151.29
+    },
+    "signEndDate": "",
+    "concatDueDate": "",
+    "contractStartTypeValue": "START_TYPE_DIRECT"
+  }
+}

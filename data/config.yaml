@@ -1,0 +1,10 @@
+# ===== 默认配置（可被 .env 环境变量覆盖）=====
+# 接口基础地址
+base_url: "https://your-api-host.com"
+# Web 页面地址
+web_url: "https://your-web-host.com"
+# 默认测试账号
+username: "test_user"
+password: "test_pass"
+# 请求超时（秒）
+timeout: 30

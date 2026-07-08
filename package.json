@@ -1,0 +1,17 @@
+{
+  "name": "aitojoy-api-autotest",
+  "version": "1.0.0",
+  "description": "AI 驱动的接口与 UI 自动化测试框架 - Midscene.js 部分",
+  "private": true,
+  "scripts": {
+    "test:ai": "playwright test --config=playwright.config.ts",
+    "test:ai:headed": "playwright test --config=playwright.config.ts --headed",
+    "test:yaml": "midscene ./midscene/yaml",
+    "report:ai": "playwright show-report"
+  },
+  "devDependencies": {
+    "@midscene/web": "^0.16.0",
+    "@playwright/test": "^1.49.1",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_snapshot",
+        "browser_take_screenshot",
+        "browser_click",
+        "browser_type",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_hover",
+        "browser_drag",
+        "browser_drop",
+        "browser_select_option",
+        "browser_file_upload",
+        "browser_evaluate",
+        "browser_run_code_unsafe",
+        "browser_wait_for",
+        "browser_console_messages",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_handle_dialog",
+        "browser_resize",
+        "browser_tabs",
+        "browser_close"
+      ]
+    }
+  }
+}

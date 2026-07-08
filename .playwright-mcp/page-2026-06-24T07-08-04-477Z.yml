@@ -1,0 +1,118 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "股权资产管理查询面板" [level=1] [ref=e4]
+    - paragraph [ref=e5]: 四表联查 · 台账 / 项目对赌 / 股权历史 / 股权月度
+  - generic [ref=e6]:
+    - generic [ref=e7]: 账号登录
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: 手机号
+        - textbox "请输入手机号" [ref=e12]: "13622034186"
+      - generic [ref=e13]:
+        - generic [ref=e14]: 密码
+        - textbox "请输入密码" [ref=e15]: daming123
+      - button "🔑 登录" [ref=e18] [cursor=pointer]
+    - paragraph [ref=e19]: 使用你的账号登录后再查询，默认已填写公共测试账号。
+  - generic [ref=e20]:
+    - generic [ref=e21]: 查询条件（四张表共用）
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: 项目名称
+        - textbox "精确匹配，如 小乔科技" [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]: 项目编号
+        - textbox "精确匹配，如 AX202003791-N" [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]: 天九持股主体
+        - textbox "精确匹配，如 北京钦国科技发展有限公司" [ref=e32]
+    - generic [ref=e33]:
+      - button "🔍 查询四张表" [ref=e34] [cursor=pointer]
+      - button "重置" [ref=e35] [cursor=pointer]
+      - button "导出当前表CSV" [ref=e36] [cursor=pointer]
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - button "台账表 -" [ref=e39] [cursor=pointer]:
+        - text: 台账表
+        - generic [ref=e40]: "-"
+      - button "项目对赌表 -" [ref=e41] [cursor=pointer]:
+        - text: 项目对赌表
+        - generic [ref=e42]: "-"
+      - button "股权历史表 -" [ref=e43] [cursor=pointer]:
+        - text: 股权历史表
+        - generic [ref=e44]: "-"
+      - button "股权月度表 -" [ref=e45] [cursor=pointer]:
+        - text: 股权月度表
+        - generic [ref=e46]: "-"
+      - button "⚙ 列设置" [ref=e47] [cursor=pointer]
+    - generic [ref=e48]:
+      - table [ref=e50]:
+        - rowgroup [ref=e51]:
+          - row "# 项目基本信息 协议内容 项目主体工商信息 历史账载信息 期末账面价值" [ref=e52]:
+            - columnheader "#" [ref=e53]
+            - columnheader "项目基本信息" [ref=e54]
+            - columnheader "协议内容" [ref=e55]
+            - columnheader "项目主体工商信息" [ref=e56]
+            - columnheader "历史账载信息" [ref=e57]
+            - columnheader "期末账面价值" [ref=e58]
+          - row "序号 项目名称 项目公司主体名称 天九持股主体 摘要 持股状态 持股类型 协议股权价值变动方式 协议归档编号 协议日期 协议估值（万元） 转让方/减资方 协议标的公司 最终标的公司 受让方/增资方 协议签署股权比例（%） 累计协议签署股权比例（%） 协议金额（万元） 协议标的公司持有最终标的公司股权比例（%） 天九持有最终标的公司股权（%） 合同明细 本地协议 工商变更日期 注册资本（万元） 协议标的公司工商变更比例（%） 协议标的公司工商变更后比例（%） 协议标的公司工商未变更比例（%） 天九认缴资金（万元） 天九实缴资金（万元） 协议标的公司持有最终标的公司股权（%） 工商登记的天九持有最终标的公司股权（%） 历史账载日期 项目估值（元） 历史账载股权比例（%） 投资成本（元） 公允价值变动（元） 资产减值损失（元） 投资损益（元） 公允价值变动损益（元） 资产减值损失（损益）（元） 期末账载日期 期末账面股权比例（%） 期末投资成本（元） 期末公允价值（元） 期末账面价值（元） 期末资产减值损失（元） 期末累计项目投资损益（账载金额）（元） 期末累计项目投资损益（协议金额）（元） 差异（元） 原因" [ref=e59]:
+            - columnheader "序号" [ref=e60]
+            - columnheader "项目名称" [ref=e61]
+            - columnheader "项目公司主体名称" [ref=e62]
+            - columnheader "天九持股主体" [ref=e63]
+            - columnheader "摘要" [ref=e64]
+            - columnheader "持股状态" [ref=e65]
+            - columnheader "持股类型" [ref=e66]
+            - columnheader "协议股权价值变动方式" [ref=e67]
+            - columnheader "协议归档编号" [ref=e68]
+            - columnheader "协议日期" [ref=e69]
+            - columnheader "协议估值（万元）" [ref=e70]
+            - columnheader "转让方/减资方" [ref=e71]
+            - columnheader "协议标的公司" [ref=e72]
+            - columnheader "最终标的公司" [ref=e73]
+            - columnheader "受让方/增资方" [ref=e74]
+            - columnheader "协议签署股权比例（%）" [ref=e75]
+            - columnheader "累计协议签署股权比例（%）" [ref=e76]
+            - columnheader "协议金额（万元）" [ref=e77]
+            - columnheader "协议标的公司持有最终标的公司股权比例（%）" [ref=e78]
+            - columnheader "天九持有最终标的公司股权（%）" [ref=e79]
+            - columnheader "合同明细" [ref=e80]
+            - columnheader "本地协议" [ref=e81]
+            - columnheader "工商变更日期" [ref=e82]
+            - columnheader "注册资本（万元）" [ref=e83]
+            - columnheader "协议标的公司工商变更比例（%）" [ref=e84]
+            - columnheader "协议标的公司工商变更后比例（%）" [ref=e85]
+            - columnheader "协议标的公司工商未变更比例（%）" [ref=e86]
+            - columnheader "天九认缴资金（万元）" [ref=e87]
+            - columnheader "天九实缴资金（万元）" [ref=e88]
+            - columnheader "协议标的公司持有最终标的公司股权（%）" [ref=e89]
+            - columnheader "工商登记的天九持有最终标的公司股权（%）" [ref=e90]
+            - columnheader "历史账载日期" [ref=e91]
+            - columnheader "项目估值（元）" [ref=e92]
+            - columnheader "历史账载股权比例（%）" [ref=e93]
+            - columnheader "投资成本（元）" [ref=e94]
+            - columnheader "公允价值变动（元）" [ref=e95]
+            - columnheader "资产减值损失（元）" [ref=e96]
+            - columnheader "投资损益（元）" [ref=e97]
+            - columnheader "公允价值变动损益（元）" [ref=e98]
+            - columnheader "资产减值损失（损益）（元）" [ref=e99]
+            - columnheader "期末账载日期" [ref=e100]
+            - columnheader "期末账面股权比例（%）" [ref=e101]
+            - columnheader "期末投资成本（元）" [ref=e102]
+            - columnheader "期末公允价值（元）" [ref=e103]
+            - columnheader "期末账面价值（元）" [ref=e104]
+            - columnheader "期末资产减值损失（元）" [ref=e105]
+            - columnheader "期末累计项目投资损益（账载金额）（元）" [ref=e106]
+            - columnheader "期末累计项目投资损益（协议金额）（元）" [ref=e107]
+            - columnheader "差异（元）" [ref=e108]
+            - columnheader "原因" [ref=e109]
+        - rowgroup [ref=e110]:
+          - row "点击「查询四张表」加载数据" [ref=e111]:
+            - cell "点击「查询四张表」加载数据" [ref=e112]
+      - generic [ref=e113]:
+        - button "上一页" [ref=e114] [cursor=pointer]
+        - generic [ref=e115]: 第 1 页
+        - button "下一页" [ref=e116] [cursor=pointer]
+        - combobox [ref=e117]:
+          - option "20条/页" [selected]
+          - option "50条/页"
+          - option "100条/页"

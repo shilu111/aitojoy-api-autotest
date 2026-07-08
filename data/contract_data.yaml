@@ -1,0 +1,40 @@
+# ===== 合同接口测试配置与数据 =====
+
+# 合同服务基础地址（与登录服务不同，单独配置）
+base_url: "https://test-admin.aitojoy.com"
+
+# 鉴权请求头（token 有时效，过期需重新抓取替换）
+headers:
+  Content-Type: "application/json"
+  tj-auth: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOm51bGwsInVzZXJfbmFtZSI6IjEzNjIyMDM0MTg2OjE6dHNfcGxhdGZvcm0iLCJtb2JpbGUiOiIxMzYyMjAzNDE4NiIsInNvdXJjZSI6IjUwIiwidXNlcklkIjoiZGU2MWIyNTA4OWFjOWQ1NDhlOGFiYjY5ZDZlZDc3YmYiLCJwbGF0Zm9ybSI6InRzX3BsYXRmb3JtIiwiY2xpZW50X2lkIjoidG9qb3kiLCJzY29wZSI6WyJhbGwiXSwibmFtZSI6ImxpdXRvbmcxMCIsImNsaWVudCI6IjEiLCJleHAiOjE3ODI3MjE2NzgsImp0aSI6ImVkZWNjYzk4LTAyY2QtNDQ3Yy1iZmUxLTYxNTliOWMwODFhNCIsImFjY291bnQiOiJsaXV0b25nMTAiLCJ1c2VybmFtZSI6IjEzNjIyMDM0MTg2OjE6dHNfcGxhdGZvcm0ifQ.L82cLO_CIe_zYF1ePIuXMCvPh_XrLzZCkQrYL4g_VcQ"
+  tojoy-tenant: "e0c5a9f2393fad79dfb0e5a3915d3e7d"
+
+# 期望结果（依据接口真实返回结构）
+expected:
+  status_code: 200
+  # 业务成功码
+  code_path: "$.code"
+  code_value: 200
+  # 业务成功标识
+  success_path: "$.success"
+  success_value: true
+  # 成功提示语
+  msg_path: "$.msg"
+  msg_value: "处理成功"
+
+# 协议类型映射表（类型编码 -> 协议类型名称）
+contract_types:
+  "LT-01": "刘桐测试"
+  "CT_016": "增资扩股协议"
+  "CT_015": "股权转让协议"
+  "CT_014": "服务协议之补充协议-增资"
+  "CT_013": "服务协议之补充协议-股转"
+  "CT_011": "项目结算单"
+  "CT_010": "项目估值合同"
+  "CT_008": "项目合作提示书"
+  "CT_007": "服务合同"
+  "CT_006": "诚信承诺书"
+  "CT_005": "其他合同"
+  "CT_003": "解除协议"
+  "CT_002": "合作协议"
+  "CT_001": "服务协议"
